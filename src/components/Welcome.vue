@@ -83,7 +83,7 @@ import axios from "axios";
 
 <style scoped>
   .card-style {
-    width: 80%;
+
     margin: auto;
 
   }

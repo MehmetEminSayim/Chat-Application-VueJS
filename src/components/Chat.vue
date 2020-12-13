@@ -75,7 +75,6 @@ import axios from "axios"
 
 <style scoped>
 .card {
-  width: 90%;
   margin: auto;
 }
 .time{
