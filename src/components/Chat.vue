@@ -2,7 +2,7 @@
   <div class="container">
     <div class="card">
       <div class="card-header">
-        <h4>Sohbet Uygulaması - {{name}} -</h4>
+        <h4>Chat Application - {{name}} -</h4>
       </div>
       <br>
       <div class="card-content">
@@ -14,8 +14,8 @@
                 <span class="text-success name">By :{{item.name}}</span>
 
               </div>
-              <div class="col-md-3 text-right">
-                <span class="text-secondary time">({{item.date |moment("dddd, MMMM h:mm:ss a")}})</span>
+              <div class="col-md-3">
+                <span class="text-center text-secondary time">({{item.date |moment("dddd, MMMM h:mm:ss a")}})</span>
               </div>
             </div>
           </li>
