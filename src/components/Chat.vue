@@ -85,3 +85,14 @@ import axios from "axios"
 }
 </style>
 
+ this.resultValue.push({
+              username : doc.username,
+              name : doc.name,
+              animal : doc.animal,
+              brand : doc.brand,
+              city: doc.city,
+              famous: doc.famous,
+              goods: doc.goods,
+
+            })
+
